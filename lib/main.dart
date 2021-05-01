@@ -62,10 +62,10 @@ class PortfolioApp extends StatelessWidget {
                          decoration: BoxDecoration(
                            image: DecorationImage (
                              image:  AssetImage('assets/images/avi.png'),
-                               fit: BoxFit.cover
+                               fit: BoxFit.cover,
                            ),
                              borderRadius: BorderRadius.circular(100),
-                             color: Colors.transparent
+                             color: Colors.white60
                          ),
                        ),
                      ),
